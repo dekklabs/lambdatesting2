@@ -15,3 +15,10 @@ functions:
           path: chat/real-time
           method: get
           cors: true
+  location:
+    handler: src/handler/location.handler
+    events:
+      - http:
+          path: location/get-ip
+          method: post
+          cors: true

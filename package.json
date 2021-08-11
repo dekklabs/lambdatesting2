@@ -19,5 +19,8 @@
   "homepage": "https://github.com/dekklabs/lambdatest2#readme",
   "devDependencies": {
     "serverless-offline": "^8.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
