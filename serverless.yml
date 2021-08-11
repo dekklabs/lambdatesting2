@@ -1,0 +1,17 @@
+service: lambdatest2
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+  region: us-east-1
+
+functions:
+  chat:
+    handler: src/handler/chat.handler
+    events:
+      - http:
+          path: chat/real-time
+          method: get
+          cors: true
