@@ -21,4 +21,4 @@ functions:
       - http:
           path: location/get-ip
           method: post
-          cors: true
+          cors: false
