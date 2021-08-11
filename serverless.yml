@@ -5,7 +5,7 @@ provider:
   runtime: nodejs12.x
   lambdaHashingVersion: 20201221
 
-  region: us-east-1
+  region: us-east-2
 
 functions:
   chat:
