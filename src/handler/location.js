@@ -1,7 +1,7 @@
 'use strict'
 const axios = require("axios");
 
-module.exports.handler = async (event) => {
+const location = async (event) => {
     return {
         statusCode: 200,
         body: JSON.stringify({
@@ -11,3 +11,5 @@ module.exports.handler = async (event) => {
         })
     }
 }
+
+exports.handler = location;
