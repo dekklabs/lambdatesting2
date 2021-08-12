@@ -29,3 +29,9 @@ functions:
           path: message
           method: get
           cors: true
+  toUppercase:
+    hanlder: src/handler/toUppercase.handler
+      - http:
+          path: touppercase
+          method: post
+          cors: true
