@@ -1,6 +1,6 @@
 'use strict';
 
-const toUppercase = async (event) => {
+const toUppercasefunc = async (event) => {
     let myWord = event.word.toUpperCase();
     const response = {
         statusCode: 200,
@@ -12,4 +12,4 @@ const toUppercase = async (event) => {
     return response;
 }
 
-exports.handler = toUppercase;
+exports.handler = toUppercasefunc;

@@ -30,7 +30,7 @@ functions:
           method: get
           cors: true
   toUppercase:
-    hanlder: src/handler/toUppercase.handler
+    handler: src/handler/toUppercase.handler
     events:
       - http:
           path: touppercase
