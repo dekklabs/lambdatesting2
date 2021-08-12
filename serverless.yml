@@ -35,4 +35,6 @@ functions:
       - http:
           path: touppercase
           method: post
-          cors: true
+          cors:
+            origin: "*"
+            allowCredentials: false
