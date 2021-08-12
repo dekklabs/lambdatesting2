@@ -22,3 +22,10 @@ functions:
           path: location/get-ip
           method: post
           cors: false
+  message:
+    handler: src/handler/message.handler
+    events:
+      - http:
+          path: message
+          method: get
+          cors: true
