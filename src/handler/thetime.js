@@ -1,8 +1,7 @@
 'use strict';
 
-const theTime = () => {
+const theTime = async (event) => {
     let time = new Date();
-
     let response = {
         statusCode: 200,
         body: JSON.stringify({
