@@ -2,6 +2,7 @@
 
 const toUppercasefunc = async (event) => {
     let myWord = event.word.toUpperCase();
+    
     const response = {
         statusCode: 200,
         headers: {
