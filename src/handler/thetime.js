@@ -1,8 +1,8 @@
 'use strict';
 
-const theTime = async (event) => {
+module.exports.handler = async (event) => {
     let time = new Date();
-    let response = {
+    const response = {
         statusCode: 200,
         body: JSON.stringify({
             message: 'Clever cabro',
@@ -12,5 +12,3 @@ const theTime = async (event) => {
 
     return response;
 }
-
-exports.handler = theTime;
