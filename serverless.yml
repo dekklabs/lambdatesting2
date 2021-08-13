@@ -35,3 +35,9 @@ functions:
       - http:
           path: touppercase
           method: post
+  thetime:
+    hanlder: src/handler/thetime.handler
+    events:
+      - http:
+          path: thetime
+          method: get
