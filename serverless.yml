@@ -41,3 +41,4 @@ functions:
       - http:
           path: thetime
           method: get
+          cors: true
