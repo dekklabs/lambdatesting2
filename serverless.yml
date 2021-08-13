@@ -35,16 +35,3 @@ functions:
       - http:
           path: touppercase
           method: post
-          resp: json
-          cors:
-            - enabled: true
-            - origin: "*"
-            - headers: "Content-Type,X-PINGOTHER"
-            - methods: "PUT,POST"
-  thetime:
-    handler: src/handler/thetime.handler
-    events:
-      - http:
-          path: thetime
-          method: get
-          cors: true
