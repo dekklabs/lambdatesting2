@@ -36,7 +36,7 @@ functions:
           path: touppercase
           method: post
   thetime:
-    hanlder: src/handler/thetime.handler
+    handler: src/handler/thetime.handler
     events:
       - http:
           path: thetime
