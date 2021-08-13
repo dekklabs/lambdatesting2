@@ -19,7 +19,7 @@ functions:
     handler: src/handler/location.handler
     events:
       - http:
-          path: location/get-ip
+          path: getip
           method: post
           cors: false
   message:
