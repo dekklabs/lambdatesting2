@@ -35,3 +35,10 @@ functions:
       - http:
           path: touppercase
           method: post
+  posttype:
+    handler: src/hanlder/posttype.handler
+    events:
+      - http:
+          path: posttype
+          method: post
+          cors: true
