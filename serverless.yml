@@ -47,6 +47,7 @@ functions:
             - methods: "POST"
   getData:
     handler: src/handler/getData.handler
+    events:
       - http:
           path: getData
           method: get
