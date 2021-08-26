@@ -45,3 +45,12 @@ functions:
             - enabled: true
             - origin: "*"
             - methods: "POST"
+  getData:
+    handler: src/handler/getData.handler
+      - http:
+          path: getData
+          method: get
+          cors:
+            - enabled: true
+            - origin: "*"
+            - methods: "GET"
